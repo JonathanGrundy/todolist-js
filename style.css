@@ -1,0 +1,71 @@
+*{
+    background-color: #ddd;
+    box-sizing: border-box;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    font-size: 5em;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    padding-top: 10%;
+    text-align: center;
+    color:black;
+}
+
+input{
+    font-size: 1em;
+    cursor: text;
+    width: 25%;
+    background-color: white;
+}
+
+.inputAdd{
+    text-align: center;
+}
+
+
+ul li {
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+
+  ul li:hover {
+    background: grey;
+  }
+
+button {
+background-color: white;
+cursor: pointer;
+}
+
+
+.removeAll {
+    text-align: center;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+ul li span {
+    color: red;
+    float: right;
+}
